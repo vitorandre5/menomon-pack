@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "menomon_mochila_fix",
+  "version": "1.0.0",
+  "name": "Menomon Mochila Fix",
+  "description": "Mochila do Inmis presa ao torso animado (Punchy Moves, Emotecraft, agachar), com alcas, e desenhada com o modelo de costas do Sophisticated Backpacks quando ele estiver instalado (visual do Cobbleverse). So cliente.",
+  "authors": [
+    "Menomon"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "menomon_mochila_fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "inmis": ">=2.8.0"
+  },
+  "suggests": {
+    "punchy_moves": "*",
+    "sophisticatedbackpacks": "*"
+  }
+}

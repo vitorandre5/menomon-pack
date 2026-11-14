@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "menomon.mochilafix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BackpackFeatureMixin",
+    "CapeLayerMixin",
+    "WaveyCapeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
