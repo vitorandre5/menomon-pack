@@ -1,0 +1,6 @@
+{
+ "parent": "menomon_mochila3d:item/backpack_base",
+ "textures": {
+  "clips": "menomon_mochila3d:item/diamond_clips"
+ }
+}

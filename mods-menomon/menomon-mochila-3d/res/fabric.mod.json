@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "menomon_mochila3d",
+  "version": "1.1.0",
+  "name": "Menomon Mochila 3D",
+  "description": "Visual 3D das mochilas do Inmis com o modelo do Sophisticated Backpacks (como no Cobbleverse), com a mesma cor/tingimento da mochila nas costas.",
+  "authors": ["Menomon"],
+  "license": "GPL-3.0 (modelo e texturas do Sophisticated Backpacks, P3pp3rF1y)",
+  "environment": "client",
+  "entrypoints": { "client": ["menomon.mochila3d.MochilaCores"] },
+  "depends": { "fabricloader": ">=0.16", "fabric-api": "*" },
+  "suggests": { "inmis": "*" }
+}
